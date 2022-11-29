@@ -2,7 +2,7 @@
 awsecr-docker-tool
 AWS-ECR login password tool 集成到[docker in docker] 镜像中
 
-## 工具链仓库
+## Docker in docker工具链仓库
 ```
 registry.cn-hangzhou.aliyuncs.com/jinquan711/docker:22.06-aws-ecrloginpass
 ```
