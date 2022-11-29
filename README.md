@@ -7,12 +7,7 @@ AWS-ECR login password tool 集成到[docker in docker] 镜像中
 registry.cn-hangzhou.aliyuncs.com/jinquan711/docker:22.06-aws-ecrloginpass
 ```
 
-## 【使用案例1】快速构建应用镜像
-```
-docker build --rm -t registry.cn-hangzhou.aliyuncs.com/jinquan711/docker:22.06-aws-ecrloginpass -f ./Dockerfile .
-```
-
-## 【使用案例2】集成到jenkins流水线中, Docker镜像构建完成后, 推送镜像到AWS-ECR
+## 【使用案例】集成到jenkins流水线中, Docker镜像构建完成后, 推送镜像到AWS-ECR
 ```
 ////////////////////////////////////////////   函数定义：docker镜像构建、推送到AWS ECR仓库
 // dockerfile: Dockerfile路径
