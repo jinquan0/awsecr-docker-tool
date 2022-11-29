@@ -1,5 +1,4 @@
 # awsecr-docker-tool
-awsecr-docker-tool
 AWS-ECR login password tool 集成到[docker in docker] 镜像中
 
 ## [Docker in docker] 应用容器构建工具
