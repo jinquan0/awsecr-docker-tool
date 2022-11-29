@@ -2,12 +2,12 @@
 awsecr-docker-tool
 AWS-ECR login password tool 集成到[docker in docker] 镜像中
 
-## Docker in docker工具链仓库
+## [Docker in docker] 应用容器构建工具
 ```
 registry.cn-hangzhou.aliyuncs.com/jinquan711/docker:22.06-aws-ecrloginpass
 ```
 
-## 【使用案例】集成到jenkins流水线中, Docker镜像构建完成后, 推送镜像到AWS-ECR
+## 【使用案例】构建工具集成到jenkins流水线, 镜像构建完成后,自动推送镜像到AWS-ECR
 ```
 ////////////////////////////////////////////   函数定义：docker镜像构建、推送到AWS ECR仓库
 // dockerfile: Dockerfile路径
