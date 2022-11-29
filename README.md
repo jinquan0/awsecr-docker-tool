@@ -73,3 +73,7 @@ def docker_build(String dockerfile, String credential , String aws_region, Strin
     }
 
 ```
+![image](https://github.com/jinquan0/awsecr-docker-tool/blob/main/jenkinsfile%E9%9B%86%E6%88%90ECR-ecrlogin.PNG?raw=true)
+![image](https://github.com/jinquan0/awsecr-docker-tool/blob/main/jenkinsfile%E9%9B%86%E6%88%90ECR-ecrpush.PNG?raw=true)
+
+
